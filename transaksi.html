@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KenyangResto - Pasti Kenyang Harga Aman</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <nav>
+        <div class="wrap">
+            <div class="logo"><p>KenyangResto</p></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><p>Transaksi</p></li>
+                    <li><a href="tambahFoto.html">Tambahkan Foto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="kolom">
+        <h2>Hitung Transaksi Kuy</h2>
+        <form action="form.php" method="post">
+        <table>
+            <tr>
+                <td>Nama pembeli</td>
+                <td><input type="text" name="username" placeholder="Masukkan nama" class="cel"></td>
+            </tr>
+            <tr>
+                <td>Status pembeli</td>
+                <td><select name="status" class="cel">
+                    <option value="1" selected>Member</option>
+                    <option value="0">Non-Member</option>
+                </select>
+            </td>
+            </tr>
+            <tr>
+                <td>Menu</td>
+                <td><select name="menu" class="cel">
+                    <option value="1" selected>Paket 1</option>
+                    <option value="2">Paket 2</option>
+                    <option value="3">Paket 3</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Jumlah</td>
+                <td><input type="text" name="jumlah" placeholder="Masukkan jumlah" class="cel"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Hitung" class="button"></td>
+            </tr>
+        </table>
+    </form>
+    </div>
+    <div class="footer">
+        <ul>
+            <li><p>KenyangResto - @Fitrah Rahmadhani Ahmad</p></li>
+            <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.gojek.com/gofood/" target="_blank">GoFood</a></li>
+            <li><a href="https://shopee.co.id/m/shopeefood?smtt=9&stm_medium=organic&stm_source=google-rw/" target="_blank">Shopee Food</a></li>
+        </ul>        
+    </div>
+</body>
+</html>

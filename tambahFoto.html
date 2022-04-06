@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KenyangResto - Pasti Kenyang Harga Aman</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <nav>
+        <div class="wrap">
+            <div class="logo"><p>KenyangResto</p></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="transaksi.html">Transaksi</a></li>
+                    <li><p>Tambahkan Foto</p></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="kolom">
+        <h2>Menambah Foto Menu</h2>
+        <form enctype="multipart/form-data" action="fileUpload.php" method="POST">
+            <p>Pilih foto yang akan dimasukkan</p>
+            <input name="uploadedfile" type="file" value="Choose file"><br><br>
+            <input class="bu" type="submit" value="Upload Foto">
+        </form>
+    </div>
+    <div class="footer">
+        <ul>
+            <li><p>KenyangResto - @Fitrah Rahmadhani Ahmad</p></li>
+            <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.gojek.com/gofood/" target="_blank">GoFood</a></li>
+            <li><a href="https://shopee.co.id/m/shopeefood?smtt=9&stm_medium=organic&stm_source=google-rw/" target="_blank">Shopee Food</a></li>
+        </ul>        
+    </div>
+</body>
+</html>
